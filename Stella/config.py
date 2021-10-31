@@ -29,7 +29,7 @@ class Config:
     BOT_ID = 1302770491
     PREFIX = ['/', '!']
 
-    DATABASE_URI = ''
+    DATABASE_URI = 'mongodb+srv://Huntingbots:bots288@cluster0.phpct.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
     BACKUP_CHAT = -100
 
     LOG_CHANNEL = -100
