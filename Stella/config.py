@@ -16,8 +16,8 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 class Config:
-    API_ID =  1234
-    API_HASH = None
+    API_ID = '2070907'
+    API_HASH = 'e1d077ec3bdf540193afdb4d846bcfb2'
 
     OWNER_ID = (
         []
