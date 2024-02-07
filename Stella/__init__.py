@@ -1,3 +1,36 @@
+
+"""
+
+[telegram]
+api_id = "2568615"
+api_hash = "1e62cca9207a4469ca847526acebb660"
+
+[tekegram.bot]
+bot_token = "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
+name = "Elaina"
+username = "@Elaina"
+user_id = "2069340770"
+
+[database]
+database_url = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
+[settings]
+owner = "1194169408"
+sudo_users = ['1194169408']
+
+[settings.commands]
+prefix = ['!', '/']
+
+[settings.log]
+chat_id = "-1001251337410"
+
+[settings.backup]
+chat_id = "-1001251337410"
+
+[api.stella]
+api_key = ""
+"""
+
 #    Stella (Development)
 #    Copyright (C) 2021 - meanii (Anil Chauhan)
 #    Copyright (C) 2021 - SpookyGang (Neel Verma, Anil Chauhan)
@@ -22,25 +55,25 @@ from pymongo import MongoClient
 from pyrogram import Client
 from pyromod import listen
 
-from Stella.config import Config
+#from Stella.config import Config
 from Stella.StellaGban import StellaClient
 
 #from stellagban import StellaClient
 
 
-APP_ID = Config.API_ID
-API_HASH = Config.API_HASH
-OWNER_ID = Config.OWNER_ID
-BOT_TOKEN = Config.BOT_TOKEN
-BOT_ID = Config.BOT_ID
-BOT_NAME = Config.BOT_NAME
-BOT_USERNAME = Config.BOT_USERNAME
-LOG_CHANNEL = Config.LOG_CHANNEL
-SUDO_USERS = Config.SUDO_USERS
+APP_ID = "2568615"
+API_HASH = "1e62cca9207a4469ca847526acebb660"
+OWNER_ID = "1194169408"
+BOT_TOKEN = "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
+BOT_ID = "2069340770"
+BOT_NAME = "stella"
+BOT_USERNAME = ""@missstella
+LOG_CHANNEL = "-1001251337410"
+SUDO_USERS = None
 PREFIX = Config.PREFIX
-DATABASE_URI = Config.DATABASE_URI
-BACKUP_CHAT = Config.BACKUP_CHAT
-StellaGbanAPI = Config.StellaGbanAPI
+DATABASE_URI = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+BACKUP_CHAT = "-1001251337410"
+StellaGbanAPI = None
 
 
 StellaCli = Client(
