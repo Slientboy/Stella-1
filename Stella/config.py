@@ -1,3 +1,37 @@
+
+"""
+
+[telegram]
+api_id = "2568615"
+api_hash = "1e62cca9207a4469ca847526acebb660"
+
+[tekegram.bot]
+bot_token = "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
+name = "Elaina"
+username = "@Elaina"
+user_id = "2069340770"
+
+[database]
+database_url = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
+[settings]
+owner = "1194169408"
+sudo_users = ['1194169408']
+
+[settings.commands]
+prefix = ['!', '/']
+
+[settings.log]
+chat_id = "-1001251337410"
+
+[settings.backup]
+chat_id = "-1001251337410"
+
+[api.stella]
+api_key = ""
+"""
+
+
 #    Stella (Development)
 #    Copyright (C) 2021 - meanii (Anil Chauhan)
 #    Copyright (C) 2021 - SpookyGang (Neel Verma, Anil Chauhan)
@@ -23,7 +57,7 @@ class Config:
         []
     )
     
-    BOT_TOKEN = None
+    BOT_TOKEN = "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
     BOT_NAME = ''
     BOT_USERNAME= 'mikoRobot'
     BOT_ID = 1302770491
