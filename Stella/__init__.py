@@ -69,7 +69,7 @@ BOT_ID = "2069340770"
 BOT_NAME = "stella"
 BOT_USERNAME = "@missstella"
 LOG_CHANNEL = "-1001251337410"
-SUDO_USERS = None
+SUDO_USERS = int("6823720240")
 PREFIX = ['!', '/']
 DATABASE_URI = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 BACKUP_CHAT = "-1001251337410"
