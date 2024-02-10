@@ -1,5 +1,5 @@
 # Pyrogram implimantion 
-pyrogram==0.16.0
+pyrogram==0.18.0
 tgcrypto 
 
 # Database implimantion
