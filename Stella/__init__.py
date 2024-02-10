@@ -83,7 +83,7 @@ StellaCli = Client(
     bot_token=BOT_TOKEN
 )
 
-StellaCli.start()
+
 StellaAPI = StellaClient(api_key=StellaGbanAPI)
 
 scheduler = AsyncIOScheduler()
