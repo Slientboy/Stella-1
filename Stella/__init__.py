@@ -74,7 +74,7 @@ PREFIX = ['!', '/']
 DATABASE_URI = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 BACKUP_CHAT = "-1001251337410"
 StellaGbanAPI = None
-session_name = TOKEN.split(":")[0]
+session_name = BOT_TOKEN.split(":")[0]
 
 StellaCli = Client(
     session_name,
