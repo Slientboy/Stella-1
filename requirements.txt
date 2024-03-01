@@ -1,5 +1,5 @@
 # Pyrogram implimantion 
-pyrogram
+pyrogram==1.3.0
 tgcrypto 
 
 # Database implimantion
