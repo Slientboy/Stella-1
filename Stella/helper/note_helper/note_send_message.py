@@ -47,7 +47,6 @@ async def SendNoteMessage(message: Message, note_name: str, from_chat_id: int):
     # Check if string is empty or contain spaces only
     if (
         not text
-        or re.search("^\s*$", text)
     ):
         text = note_name
 
