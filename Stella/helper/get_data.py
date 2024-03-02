@@ -17,7 +17,7 @@
 
 
 from emojis import decode
-from pyrogram.types import Message
+from hydrogram.types import Message
 from Stella import StellaCli
 from Stella.database.users_mongo import GetChatName
 
