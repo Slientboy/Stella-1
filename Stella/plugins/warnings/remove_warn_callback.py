@@ -15,8 +15,8 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram import filters
-from pyrogram.types import CallbackQuery
+from hydrogram import filters
+from hydrogram.types import CallbackQuery
 from Stella import StellaCli
 from Stella.database.warnings_mongo import remove_warn
 from Stella.helper.chat_status import isUserAdmin
