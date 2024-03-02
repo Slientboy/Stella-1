@@ -83,7 +83,7 @@ StellaCli = Client(
     bot_token="6561884620:AAFfGKNHPgANLsTWs15XDvRBxVYfccAQOos"
 )
 
-StellaCli.run()
+StellaCli.start()
 print("client working")
 StellaAPI = StellaClient(api_key=StellaGbanAPI)
 
