@@ -1,7 +1,7 @@
 import html
 import re
 
-from pyrogram.types import InlineKeyboardMarkup, Message
+from hydrogram.types import InlineKeyboardMarkup, Message
 from Stella import StellaCli
 from Stella.database.notes_mongo import GetNote
 from Stella.helper.button_gen import button_markdown_parser
