@@ -19,8 +19,8 @@
 import re
 from typing import List, Union
 
-from pyrogram.filters import create
-from pyrogram.types import Message
+from hydrogram.filters import create
+from hydrogram.types import Message
 from Stella import BOT_USERNAME, PREFIX
 
 # Global variables for dmins commands, connection admin commands & connection user commands 
