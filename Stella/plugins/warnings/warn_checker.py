@@ -17,7 +17,7 @@
 
 import time
 
-from pyrogram.types import ChatPermissions
+from hydrogram.types import ChatPermissions
 from Stella import StellaCli
 from Stella.database.warnings_mongo import (count_user_warn,
                                             get_all_warn_reason, get_warn_mode,
