@@ -17,7 +17,7 @@
 
 import html
 
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Stella import BOT_USERNAME, StellaCli
 from Stella.database.rules_mongo import (get_private_note, get_rules,
                                          get_rules_button)
