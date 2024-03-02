@@ -15,7 +15,7 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Stella import StellaCli
 from Stella.helper import custom_filter
 from Stella.plugins.connection.connect import connectRedirect
