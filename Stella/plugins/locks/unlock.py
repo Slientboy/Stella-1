@@ -15,8 +15,8 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram.errors import BadRequest
-from pyrogram.types import ChatPermissions
+from hydrogram.errors import BadRequest
+from hydrogram.types import ChatPermissions
 from Stella import StellaCli
 from Stella.database.locks_mongo import unlock_db
 from Stella.helper import custom_filter
