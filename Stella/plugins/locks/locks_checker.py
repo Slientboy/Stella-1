@@ -19,7 +19,7 @@ import re
 import time
 
 from langdetect import detect
-from pyrogram import filters
+from hydrogram import filters
 from Stella import StellaCli
 from Stella.database.locks_mongo import get_allowlist, get_locks, lockwarns_db
 from Stella.helper.chat_status import check_bot, isUserAdmin
