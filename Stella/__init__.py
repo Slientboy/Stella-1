@@ -56,7 +56,7 @@ from hydrogram import Client
 from pyromod import listen
 
 #from Stella.config import Config
-from Stella.StellaGban import StellaClient
+#from Stella.StellaGban import StellaClient
 
 #from stellagban import StellaClient
 
