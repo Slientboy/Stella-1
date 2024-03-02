@@ -15,8 +15,8 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram import filters
-from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+from hydrogram import filters
+from hydrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup)
 from Stella import StellaCli
 from Stella.helper import custom_filter
