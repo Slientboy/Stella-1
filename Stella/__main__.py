@@ -67,7 +67,7 @@ print(HIDDEN_MOD)
 
 if __name__ == "__main__":
     scheduler.start()
-    StellaCli.start()
+    StellaCli.run()
 print("the bot starting")
 #StellaCli.start()
 #print("client working")
