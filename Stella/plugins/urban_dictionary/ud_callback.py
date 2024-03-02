@@ -16,8 +16,8 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from pykeyboard import InlineKeyboard
-from pyrogram import filters
-from pyrogram.types import CallbackQuery
+from hydrogram import filters
+from hydrogram.types import CallbackQuery
 from Stella import StellaCli
 from Stella.plugins.urban_dictionary.get_data import getData
 
