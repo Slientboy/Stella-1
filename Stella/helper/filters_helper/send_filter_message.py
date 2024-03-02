@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram.types import InlineKeyboardMarkup, Message
+from hydrogram.types import InlineKeyboardMarkup, Message
 from Stella import StellaCli
 from Stella.helper.button_gen import button_markdown_parser
 from Stella.helper.note_helper.note_fillings import NoteFillings
