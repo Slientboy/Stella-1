@@ -18,8 +18,8 @@
 import html
 import re
 
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from hydrogram import filters
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Stella import BOT_USERNAME, StellaCli
 from Stella.__main__ import HELPABLE, SUB_MODE
 from Stella.helper import custom_filter
