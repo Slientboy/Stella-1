@@ -1,5 +1,5 @@
 # Pyrogram implimantion 
-pyrogram
+#pyrogram
 tgcrypto 
 hydrogram
 
