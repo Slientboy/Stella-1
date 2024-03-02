@@ -18,8 +18,8 @@
 
 import html
 
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardMarkup
+from hydrogram import filters
+from hydrogram.types import InlineKeyboardMarkup
 from Stella import StellaCli
 from Stella.database.welcome_mongo import (DEFAUT_GOODBYE, GetCleanService,
                                            GetGoobye, GetGoodbyemessageOnOff,
