@@ -52,7 +52,7 @@ import sys
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pymongo import MongoClient
-from pyrogram import Client
+from hydrogram import Client
 from pyromod import listen
 
 #from Stella.config import Config
