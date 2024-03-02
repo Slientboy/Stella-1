@@ -18,7 +18,7 @@
 
 import re
 
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Stella import BOT_USERNAME
 from Stella.database.notes_mongo import isNoteExist
 
