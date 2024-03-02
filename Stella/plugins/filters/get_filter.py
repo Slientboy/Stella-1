@@ -18,7 +18,7 @@
 
 import re
 
-from pyrogram import filters
+from hydrogram import filters
 from Stella import StellaCli
 from Stella.database.filters_mongo import get_filter, get_filters_list
 from Stella.helper import custom_filter
