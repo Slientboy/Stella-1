@@ -17,7 +17,7 @@
 
 
 import pyrogram
-from pyrogram.types import InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardMarkup
 from Stella import StellaCli
 from Stella.helper.welcome_helper.welcome_fillings import Welcomefillings
 
