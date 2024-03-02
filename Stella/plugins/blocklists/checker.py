@@ -18,7 +18,7 @@
 
 import time
 
-from pyrogram.types import ChatPermissions
+from hydrogram.types import ChatPermissions
 from Stella import StellaCli
 from Stella.database.blocklists_mongo import (get_blocklist_reason,
                                               getblocklistMessageDelete,
