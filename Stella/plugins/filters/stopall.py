@@ -18,8 +18,8 @@
 
 import html
 
-from pyrogram import filters
-from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+from hydrogram import filters
+from hydrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup)
 from Stella import StellaCli
 from Stella.database.filters_mongo import stop_all_db
