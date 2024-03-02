@@ -16,8 +16,8 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram import filters
-from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+from hydrogram import filters
+from hydrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from Stella import GROUP_ANONYMOUS_BOT, StellaCli
 from Stella.database.chats_settings_mongo import get_anon_setting
