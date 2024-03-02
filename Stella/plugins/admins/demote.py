@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram.types import ChatPermissions
+from hydrogram.types import ChatPermissions
 from Stella import BOT_ID, StellaCli
 from Stella.helper import custom_filter
 from Stella.helper.anon_admin import anonadmin_checker
