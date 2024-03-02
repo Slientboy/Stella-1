@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram.methods import password
+from hydrogram.methods import password
 from Stella import StellaCli
 from Stella.database.welcome_mongo import UnSetWelcome
 from Stella.helper import custom_filter
