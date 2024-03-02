@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram.types import InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardMarkup
 from Stella import StellaCli
 from Stella.database.welcome_mongo import (DEFAUT_GOODBYE, GetCleanService,
                                            GetGoobye, GetGoodbyemessageOnOff,
