@@ -78,9 +78,9 @@ session_name = BOT_TOKEN.split(":")[0]
 
 StellaCli = Client(
     "stella",
-    api_id=APP_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id=2568615,
+    api_hash="1e62cca9207a4469ca847526acebb660",
+    bot_token="6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
 )
 
 StellaCli.run()
