@@ -64,7 +64,7 @@ from Stella.StellaGban import StellaClient
 APP_ID = "2568615"
 API_HASH = "1e62cca9207a4469ca847526acebb660"
 OWNER_ID = "1194169408"
-BOT_TOKEN = "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
+BOT_TOKEN = "6561884620:AAFfGKNHPgANLsTWs15XDvRBxVYfccAQOos"
 BOT_ID = "2069340770"
 BOT_NAME = "stella"
 BOT_USERNAME = "@missstella"
@@ -80,7 +80,7 @@ StellaCli = Client(
     "stella",
     api_id=2568615,
     api_hash="1e62cca9207a4469ca847526acebb660",
-    bot_token="6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
+    bot_token="6561884620:AAFfGKNHPgANLsTWs15XDvRBxVYfccAQOos"
 )
 
 StellaCli.run()
