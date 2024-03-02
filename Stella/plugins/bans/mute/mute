@@ -18,7 +18,7 @@
 
 import html
 
-from pyrogram.types import ChatPermissions
+from hydrogram.types import ChatPermissions
 from Stella import BOT_ID, StellaCli
 from Stella.helper import custom_filter
 from Stella.helper.anon_admin import anonadmin_checker
