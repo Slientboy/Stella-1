@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram import filters
+from hydrogram import filters
 from Stella import StellaCli
 from Stella.database.federation_mongo import (get_fed_from_chat,
                                               get_fed_reason, is_user_fban)
