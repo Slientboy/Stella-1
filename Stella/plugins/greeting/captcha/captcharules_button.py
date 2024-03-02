@@ -19,8 +19,8 @@
 import html
 from typing import Union
 
-from pyrogram import filters
-from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+from hydrogram import filters
+from hydrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from Stella import StellaCli
 from Stella.database.rules_mongo import get_rules
