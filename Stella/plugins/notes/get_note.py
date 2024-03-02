@@ -15,8 +15,8 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram import filters
-from pyrogram.types import Message
+from hydrogram import filters
+from hydrogram.types import Message
 from Stella import StellaCli
 from Stella.database.notes_mongo import GetNote, is_pnote_on, isNoteExist
 from Stella.helper import custom_filter
