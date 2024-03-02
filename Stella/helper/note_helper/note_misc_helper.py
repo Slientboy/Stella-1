@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram.types import Message
+from hydrogram.types import Message
 from Stella.helper.chat_status import isUserAdmin
 
 async def privateNote_and_admin_checker(message, text: str):
