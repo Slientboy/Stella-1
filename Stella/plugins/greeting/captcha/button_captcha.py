@@ -16,8 +16,8 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram import filters
-from pyrogram.types import (CallbackQuery, ChatPermissions,
+from hydrogram import filters
+from hydrogram.types import (CallbackQuery, ChatPermissions,
                             InlineKeyboardButton, InlineKeyboardMarkup)
 from Stella import BOT_USERNAME, StellaCli
 from Stella.database.rules_mongo import get_rules
