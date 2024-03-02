@@ -84,6 +84,7 @@ StellaCli = Client(
 )
 
 StellaCli.run()
+print("client working")
 StellaAPI = StellaClient(api_key=StellaGbanAPI)
 
 scheduler = AsyncIOScheduler()
