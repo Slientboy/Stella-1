@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from pyrogram.types import InlineKeyboardButton, Message
+from hydrogram.types import InlineKeyboardButton, Message
 from Stella.__main__ import HIDDEN_MOD
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
