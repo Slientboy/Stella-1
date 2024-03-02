@@ -1,6 +1,7 @@
 # Pyrogram implimantion 
 pyrogram
 tgcrypto 
+hydrogram
 
 # Database implimantion
 pymongo
