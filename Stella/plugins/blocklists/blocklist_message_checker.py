@@ -18,7 +18,7 @@
 
 import re
 
-from pyrogram import filters
+from hydrogram import filters
 from Stella import StellaCli
 from Stella.database.blocklists_mongo import get_blocklist
 from Stella.helper.chat_status import isUserAdmin
