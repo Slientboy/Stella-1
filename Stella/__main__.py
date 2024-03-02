@@ -64,10 +64,11 @@ for mode in ALL_MODULES:
         USER_INFO.append(imported_module)
 
 print(HIDDEN_MOD)
-
+StellaCli.run()
+print("the bot starting")
 if __name__ == "__main__":
     scheduler.start()
     StellaCli.run()
-print("the bot starting")
+#print("the bot starting")
 #StellaCli.start()
 #print("client working")
