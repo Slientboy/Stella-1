@@ -15,7 +15,7 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Stella import BOT_ID
 from Stella.database.warnings_mongo import count_user_warn, warn_db, warn_limit
 from Stella.helper.chat_status import can_restrict_member
