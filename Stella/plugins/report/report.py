@@ -15,7 +15,7 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram import filters
+from hydrogram import filters
 from Stella import StellaCli
 from Stella.database.report_mongo import get_report
 from Stella.helper import custom_filter
