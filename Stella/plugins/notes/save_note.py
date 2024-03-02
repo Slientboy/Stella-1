@@ -17,7 +17,7 @@
 
 import html
 
-from pyrogram import filters
+from hydrogram import filters
 from Stella import StellaCli
 from Stella.database.notes_mongo import SaveNote
 from Stella.helper import custom_filter
