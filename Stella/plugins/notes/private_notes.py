@@ -15,7 +15,7 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Stella import BOT_USERNAME
 from Stella.helper.note_helper.note_send_message import exceNoteMessageSender
 
