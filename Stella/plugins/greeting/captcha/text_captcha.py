@@ -20,8 +20,8 @@ import os
 import random
 import string
 
-from pyrogram import filters
-from pyrogram.types import (CallbackQuery, ChatPermissions,
+from hydrogram import filters
+from hydrogram.types import (CallbackQuery, ChatPermissions,
                             InlineKeyboardButton, InlineKeyboardMarkup)
 from Stella import BOT_USERNAME, StellaCli
 from Stella.database.welcome_mongo import (AppendVerifiedUsers,
