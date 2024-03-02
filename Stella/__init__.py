@@ -77,7 +77,7 @@ StellaGbanAPI = None
 session_name = BOT_TOKEN.split(":")[0]
 
 StellaCli = Client(
-    session_name,
+    "stella",
     api_id=APP_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
