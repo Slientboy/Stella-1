@@ -18,8 +18,8 @@
 
 import html
 
-from pyrogram import filters
-from pyrogram.types import ChatPermissions, InlineKeyboardMarkup
+from hydrogram import filters
+from hydrogram.types import ChatPermissions, InlineKeyboardMarkup
 from Stella import BOT_ID, LOG_CHANNEL, OWNER_ID, SUDO_USERS, StellaCli
 from Stella.database.federation_mongo import (get_fed_from_chat,
                                               get_fed_reason, is_user_fban)
