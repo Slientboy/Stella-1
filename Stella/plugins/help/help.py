@@ -56,7 +56,7 @@ async def help_command(client, message):
                 module_name = HELPABLE[module_name].__mod_name__
                 text = f"Help for `{module_name.capitalize()}` module!" 
                 button_text = 'Click here!'
-                redirect_url = f"t.me/{BOT_USERNAME}?start=help_{module_name.lower()}"
+                redirect_url = f"t.me/@Guti_hijrobot?start=help_{module_name.lower()}"
             except KeyError:
                 pass
         
