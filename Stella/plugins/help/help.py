@@ -20,11 +20,11 @@ import re
 
 from hydrogram import filters
 from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Stella import BOT_USERNAME, StellaCli
+from Stella import , StellaCli
 from Stella.__main__ import HELPABLE, SUB_MODE
 from Stella.helper import custom_filter
 from Stella.helper.pagination_buttons import paginate_modules
-
+BOT_USERNAME = "@Guti_hijrobot"
 HELP_TEXT = (
     "Here you can find information regarding how to use me. I'll guide you through all the modules I have to offer.\n\n"
     "**Pro-tip**: you can use either \"`/`\" or \"`!`\" to command me!\n\n"
