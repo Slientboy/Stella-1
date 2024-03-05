@@ -46,7 +46,7 @@ async def start(client, message):
                 ]]
                     
             await message.reply_text(
-                START_TEXT.format(mention=message.from_user.mention),
+                START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 disable_web_page_preview=True,
                 quote=True
