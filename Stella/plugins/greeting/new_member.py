@@ -44,7 +44,7 @@ async def NewMemeber(client, message):
     
     chat_id = message.chat.id
     chat_title = html.escape(message.chat.title)
-    message_id = message.message_id
+    message_id = message.id
     fed_id = get_fed_from_chat(chat_id)
 
     # Check if bot is admin to delete services messages 
