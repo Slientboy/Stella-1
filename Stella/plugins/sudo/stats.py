@@ -25,14 +25,14 @@ from Stella.helper.convert import convert_size
 async def stats(client, message):
     user_id = message.from_user.id 
     if not (
-        user_id in SUDO_USERS
-        or user_id in OWNER_ID
+        user_id == SUDO_USERS
+        or user_id == OWNER_ID
     ):
         return
     
-    if user_id in OWNER_ID:
+    if user_id == OWNER_ID:
         text = 'Konnichiwa, Ojii-san! —\n\n'
-    elif user_id in SUDO_USERS:
+    elif user_id == SUDO_USERS:
         text = 'Konnichiwa, Onii-chan! —\n\n'
 
     for m in STATS:
