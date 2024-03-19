@@ -20,7 +20,7 @@ import re
 
 from hydrogram import filters
 from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Stella import , StellaCli
+from Stella import StellaCli
 from Stella.__main__ import HELPABLE, SUB_MODE
 from Stella.helper import custom_filter
 from Stella.helper.pagination_buttons import paginate_modules
