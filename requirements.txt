@@ -2,7 +2,7 @@
 #pyrogram
 tgcrypto 
 hydrogram
-python_version==3.9
+
 # Database implimantion
 pymongo
 dnspython
