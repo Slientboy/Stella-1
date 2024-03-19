@@ -23,7 +23,7 @@ from Stella.helper import custom_filter
 async def mongoViewer(client, message):
     uer_id = message.from_user.id
     if (
-        int(uer_id) not in OWNER_ID
+        int(uer_id) not in int(OWNER_ID)
     ):
         return
 
