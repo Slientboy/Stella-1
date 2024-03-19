@@ -21,9 +21,9 @@ from Stella.helper import custom_filter
 
 @StellaCli.on_message(custom_filter.command('mongo'))
 async def mongoViewer(client, message):
-    
+    uer_id = message.from_user.id
     if (
-        message.from_user.id not in str(OWNER_ID)
+        uer_id not in OWNER_ID
     ):
         return
 
