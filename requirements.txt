@@ -1,7 +1,7 @@
 # Pyrogram implimantion 
 #pyrogram
 tgcrypto 
-hydrogram==0.1.0
+hydrogram
 
 # Database implimantion
 pymongo
