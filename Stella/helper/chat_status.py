@@ -70,7 +70,7 @@ async def isBotAdmin(message: Message, chat_id=None, silent=False) -> bool:
     
     GetData  = await StellaCli.get_chat_member(
         chat_id=chat_id,
-        user_id=BOT_ID
+        user_id=6954665306
     )
     
     if GetData.status not in ADMIN_STRINGS:
