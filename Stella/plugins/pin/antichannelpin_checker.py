@@ -25,7 +25,7 @@ from Stella.helper.chat_status import isBotCan
 @StellaCli.on_message(filters.all & filters.group, group=7)
 async def cleanlinkedChecker(client, message):
     chat_id = message.chat.id
-    message_id = message.message.id
+    message_id = message.from_message.id
     if not get_antichannelpin(chat_id):
         return
 
