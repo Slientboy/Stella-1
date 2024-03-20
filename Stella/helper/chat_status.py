@@ -107,7 +107,6 @@ async def CheckAdmins(message: Message, silent: bool = False) -> bool:
         return True
 
 async def isUserBanned(chat_id: int, user_id: int) -> bool:
-    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
