@@ -32,7 +32,7 @@ def anonadmin_checker(func):
     """
     async def wrap(client, message: Message):
         if not get_anon_setting(message.chat.id):
-            message_id = message.message_id
+            message_id = message.id
             if message.sender_chat:
                 sender_chat = message.sender_chat.id
                 chat_id = message.chat.id
