@@ -114,7 +114,7 @@ async def isUserBanned(chat_id: int, user_id: int) -> bool:
     
 
 async def check_user(message: Message, permissions: Union[str, List[str]] = 'can_change_info', silent: bool = False) -> bool:
-     user_id = mesaage.from_user.id
+    user_id = mesaage.from_user.id
     if user_id == 6954665306:
         return True
     
@@ -122,4 +122,4 @@ async def check_bot(message: Message, permissions: Union[str, List[str]] = 'can_
     user_id = mesaage.from_user.id
     if user_id == 6954665306:
         return True
-p
+
