@@ -22,7 +22,7 @@ from Stella.helper.chat_status import CheckAllAdminsStuffs
 
 @StellaCli.on_message(custom_filter.command(commands=['purge', 'spurge']))
 async def purge(client, message):
-    message_id = message.message.id + 1
+    message_id = message.id + 1
     chat_id = message.chat.id
     command = message.command[0]
     MessageIDs = []
