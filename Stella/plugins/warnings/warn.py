@@ -30,7 +30,7 @@ async def warn(message, reason, silent=False, warn_user=None):
     
     if warn_user is None:
         user_info = await get_user_id(message)
-        user_id = user_info.id
+        user_id = message.id
         if user_id == BOT_ID:
             await message.reply(
                 "Bold of you to think I'm gonna warn myself!"
