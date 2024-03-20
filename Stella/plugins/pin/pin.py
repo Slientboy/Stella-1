@@ -33,7 +33,7 @@ async def pin(client, message):
         )
         return
 
-    pin_message_id = message.reply_to_message.message_id
+    pin_message_id = message.reply_to_message.id
     message_link = f"http://t.me/c/{str(chat_id).replace(str(-100), '')}/{pin_message_id}"
 
     if (
