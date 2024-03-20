@@ -26,8 +26,8 @@ from Stella.helper.get_user import get_text, get_user_id
 async def Gban(client, message):
 
     if not (
-        message.from_user.id in SUDO_USERS
-        or message.from_user.id in OWNER_ID
+        message.from_user.id == SUDO_USERS
+        or message.from_user.id == OWNER_ID
     ):
         return 
     
