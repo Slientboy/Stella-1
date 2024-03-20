@@ -29,7 +29,7 @@ async def admin_list(client, message):
     chat_title = message.chat.title 
     chat_id = message.chat.id 
 
-    data_list = await StellaCli.get_chat_members(
+    data_list = StellaCli.get_chat_members(
         chat_id=chat_id,
         filter='administrators'
         )
