@@ -75,7 +75,7 @@ async def NewFed(client, message):
         )
     )
 
-     StellaCli.send_message(
+    await StellaCli.send_message(
         chat_id=LOG_CHANNEL,
         text=(
             "New Federation created with FedID: "
