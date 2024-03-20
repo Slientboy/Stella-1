@@ -94,7 +94,7 @@ async def NewMemeber(client, message):
             return 
         
         # Stella's Special welcome for her onii-chan gang!
-        if user_id in SUDO_USERS:
+        if user_id == SUDO_USERS:
             await message.reply(
                 "Onii-chan is here owo!"
             )
