@@ -33,7 +33,7 @@ async def Gban(client, message):
     
     admin_id = message.from_user.id 
     user_info = await get_user_id(message)
-    GbannedUser = user_info.id 
+    GbannedUser = user_info
     
     reason = get_text(message)
 
