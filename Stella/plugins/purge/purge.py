@@ -41,7 +41,7 @@ async def purge(client, message):
         )
         return
         
-    reply_to_message = message.reply_to_message.message_id
+    reply_to_message = message.reply_to_message.id
     for messageID in range(reply_to_message, message_id):
         MessageIDs.append(messageID)
     
