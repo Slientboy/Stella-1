@@ -51,7 +51,7 @@ async def ban(client, message):
         )
         return
     
-    await StellaCli.kick_chat_member(
+    await StellaCli.ban_chat_member(
         chat_id,
         user_id
         )
